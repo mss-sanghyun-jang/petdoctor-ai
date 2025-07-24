@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // 카카오 동물병원 검색 API
-const KAKAO_REST_API_KEY = '04bbcb1b8d7f203f20eb3bda4141d0bd';
+const KAKAO_REST_API_KEY = 'KAKAO_REST_API_KEY 입력 필요';
 
 app.get('/api/kakao/hospitals', async (req, res) => {
   const { query, x, y } = req.query;
